@@ -1,6 +1,7 @@
 package arrays;
 
 public class ArrayMaxMin {
+
     static int minimum(int arr[]) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -22,8 +23,8 @@ public class ArrayMaxMin {
     }
 
     public static void main(String args[]) {
-        int a[] = {33, 3, 4, 5, 2, 1};
-        System.out.println("inside main method: " + minimum(a));
-        System.out.println("max: " + maximum(a));
+        int a[] = {3, 4, 6, 1, 2};
+        System.out.println(minimum(a) + 10);
+        System.out.println(maximum(a)  +  minimum(a));
     }
 }
